@@ -9,6 +9,8 @@
 #' @export
 
 pacer <- function(target.time = 175, race = "marathon") {
+
+  # calculate target pace
   pace_min <- target.time / 26.2
   pace_sec <- pace_min*60
 
